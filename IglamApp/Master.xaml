@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IglamApp.Master" Title="Master">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="btnUsuario" Text="Usuarios" BackgroundColor="#2594f4" Image="usuario.png" Clicked="btnUsuario_Clicked" ></Button>
+            <Button x:Name="btnCliente" Text="Cliente" BackgroundColor="#2494f4" Image="cliente.png" Clicked="btnCliente_Clicked" ></Button>
+            <Button x:Name="btnDispositivo" Text="Dispostivo" BackgroundColor="#2494f4" Image="dispositivo.png" Clicked="btnDispositivo_Clicked" ></Button>
+            <Button x:Name="btnInstalaciones" Text="Instalaciones" BackgroundColor="#2494f4" Image="instalar.png" Clicked="btnInstalaciones_Clicked" ></Button>
+            <Button x:Name="btnSalir" Text="Cerrar Sesión" BackgroundColor="#2494f4" Image="salir.png" Clicked="btnSalir_Clicked" ></Button>
+        </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

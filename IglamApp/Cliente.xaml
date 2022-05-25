@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IglamApp.Cliente">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="03" CornerRadius="0">
+            <Label Text="Registro de Clientes" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+            </Frame>
+            <Entry x:Name="txtId" Placeholder="Ingrese el Id" Keyboard="Numeric"/>
+            <Entry x:Name="rucCliente" Placeholder="Ingrese el Ruc" Keyboard="Numeric"/>
+            <Entry x:Name="nombreCliente" Placeholder="Ingrese el Nombre"/>
+            <Entry x:Name="direccionCliente" Placeholder="Ingrese la direccion"/>
+            <Entry x:Name="telefonoCliente" Placeholder="Ingrese el telefono"/>
+            <Entry x:Name="emailCliente" Placeholder="Ingrese el email"/>
+            
+            <Button x:Name="btnInsertar" Text="Registrar Cliente" Clicked="btnInsertar_Clicked" Grid.Row="0" Grid.Column="0"/>
+            
+     
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

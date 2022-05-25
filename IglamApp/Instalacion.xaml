@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IglamApp.Instalacion">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="03" CornerRadius="0">
+                <Label Text="Registro de Instalaciones" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+            </Frame>
+            <Entry x:Name="txtidInstalacion" Placeholder="Ingrese el id" Keyboard="Numeric"/>
+            <Entry x:Name="txtIdCliente" Placeholder="Ingrese el id del cliente" Keyboard="Numeric"/>
+            <Entry x:Name="txtIdDispositivo" Placeholder="Ingrese el id del dispositivo" Keyboard="Numeric"/>
+            <Entry x:Name="txtlugarInstalacion" Placeholder="Ingrese el lugar"/>
+            <Entry x:Name="txtfechaInstalacion" Placeholder="Ingrese la fecha"/>
+            <Entry x:Name="txtObservaciones" Placeholder="Ingrese la observaciones"/>
+            <Button x:Name="btnCapturar" Text="Capturar Fotografía" Clicked="btnCapturar_Clicked"  Grid.Row="0" Grid.Column="0"/>
+            <Button x:Name="btnRegistrar" Text="Registrar Servicio" Clicked="btnRegistrar_Clicked"  Grid.Row="0" Grid.Column="0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

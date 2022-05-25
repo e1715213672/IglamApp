@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IglamApp.Dispositivo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="03" CornerRadius="0">
+                <Label Text="Registro de Dispositivos" HorizontalTextAlignment="Center" TextColor="White" FontSize="18"/>
+            </Frame>
+            <Entry x:Name="txtIdDispositivo" Placeholder="Ingrese el id" Keyboard="Numeric"/>
+            <Entry x:Name="txtMarcaDispositivo" Placeholder="Ingrese la marca"/>
+            <Entry x:Name="txtModeloDispositivo" Placeholder="Ingrese el modelo"/>
+            <Entry x:Name="txtSerieDispositivo" Placeholder="Ingrese la serie"/>
+            <Entry x:Name="txtObservacionDispositivo" Placeholder="Ingrese una observación"/>
+            <Button x:Name="btnRegistrar" Text="Registrar Dispositivo" Clicked="btnRegistrar_Clicked"  Grid.Row="0" Grid.Column="0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
